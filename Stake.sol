@@ -440,8 +440,7 @@ contract Berry_Staking_V1 is Ownable{
         else if(NFT.getIdType(tokenId) == 3 || NFT.getIdType(tokenId) == 4){
             _reward = userSingleReward(_user, tokenId);
         }
-        // return _reward;
-        return rewards;
+        return _reward;
     }
 
     function getBonus(address _user) public view returns(uint256){
