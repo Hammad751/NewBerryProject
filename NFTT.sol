@@ -1199,7 +1199,7 @@ function getPrice(uint256 _count) public view returns (uint256)
         // return randomId;
 
         if(randomBoxProbability[randomId] == 1){
-            Token.transfer(msg.sender, randomTokenAmount);
+            BCASH.transfer(msg.sender, randomTokenAmount);
         }
         else if(randomBoxProbability[randomId] == 2){
             Token.transferFrom(address(this), msg.sender, randomTokenAmount);
