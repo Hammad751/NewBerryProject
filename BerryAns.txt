@@ -1,0 +1,131 @@
+Free Minting Sale:
+	In this free minting sale, 
+1.	the function will be called once by every user (User list provided by Admin). 
+2.	Random Token ID will be generated after minting.
+3.	NFT will mint from the list of 0 to 1100 (100 Initial minting also include in this list). 
+4.	NFT will be directly Staked (Locked) for 150 days on behalf of the minter’ address.
+5.	NFT will not be showed inminter’ wallet.
+6.	20 tokens will be awarded as staking reward after 24 Hours (reward will calculate after every minute).
+7.	User can’t unstake token ID until the time period not completed but can withdraw reward after every minute.
+
+question
+
+Free Minting Sale:
+
+   why 100 card more? total 1,100? where use 100 card?
+
+   NFT will not be showed inminter’ wallet. what mean?
+
+   reward will calculate after every minute -> every minute reward increase
+
+   User can’t unstake token ID until the time period not completed but can withdraw reward after every minute. ?
+   what mean?
+
+how reward work?  every 24 hour?  after reward withdrawl, 24h later withdrawl ? this is not good.
+everyday same time, withdrawl must go to all users. 
+ 
+ 
+Dutch Minting Sale:
+
+Question:  amount and time check -> bcb 2400 tpken, every 1minute down price.
+Answer : Please Increase Price or increase decrement time because in this scenario sale will be ended with in a day. Because amount token is very low and decrement time as well (1 minute). Owner will set starting price and discounted price (price will be decreased after every 1 minutes). 
+Question : NFT will not be showed in owner’s wallet.  ? why not show? then when show?
+Answer: There are two scenarios; 
+Locked Staking. (Free Mint, Dutch Mint)
+In this scenario, when user will mint NFT through free mint function or dutch mint function, NFT will be transfer to Staking contract automatically and it will be locked as per requirement that given by owner. This is the reason minter can not see NFT in his wallet but he can check which NFT is staked on minter’s behalf. When time will be completed and user unstake NFT then he can check in his wallet. 
+Normal Staking. (Public Mint)
+In this scenario, when user will mint NFT he can show in his wallet because we did not set any locked time or staking condition. User can stake NFT manually by calling Stake button.  
+
+
+this is right ~~
+now we fixed bcb amount for sale
+starting price is bcb token need 2,400 bcb token
+every minutes 1 bcb token decrease for purchase.
+and dutch minting going on until 2,000 card sold out.
+
+bcb token https://scope.klaytn.com/token/0x7b876dd9d82cf2fb251de13f3758ae444f2aa878?tabId=tokenTransfer
+
+here lp provided
+
+https://app.claimswap.org/swap?tokenA=0x0000000000000000000000000000000000000000&tokenB=0x7B876dd9D82CF2Fb251DE13F3758aE444f2aa878
+
+
+Public Minting Sale;
+
+random Token ID will be generated from the list of 3101 to 8000 (400 random box NFTs also include in this list).
+*400 random box -> yes but this will use for random box, we need allocate there 400ea
+Question:  Did we set Initial minting also from public minting limit ? (100 Initial Token IDs, Which will be mint on owner’s address).
+
+Token ID will be mint on user’s address. And will be showed in user wallet.
+Question:*whay this time show user wallet? above case not show user wallet? any difference?
+Answer: I already briefly explained above in normal staking and locked staking scenarios.
+
+Genesis Minting Sale;
+1.	Users need to give two tokenIDs for genesis minting
+            * two common token and some bcb need for breed (will fix amount)
+Answer: 
+Yes, user will give two common token and  also some bcb.
+you should provide bcb price for genesis breeding. so that we can fix its price.
+
+
+2.	A new random tokenID will be generated against given tokenIDs that provided by user.
+            * the list of 8001 to 10,000.
+Answer: 
+Genesis tokenId will be generated from 8001 ~ 10,000.
+It can be of any random Id geenrated from given range (8001 ~ 10,000).
+
+3.	Generated tokenID will directly be staked(locked) for 100 days on behalf of token ID minter’s address.
+            no  * you mean reward for nft stake?  no lock !! 
+           only free mint nft and dutch mint nft lock
+Answer: 
+Genesis Id not Locked.
+only free mint and dutch mint is locked
+
+
+
+question
+
+what is your question?
+
+genesis nft card, no locke, reward give immediately.
+Ok , 
+
+even breed with genesis card, lock work mean.
+
+-> user need two card for genesis card?
+    some user can use free mint card or dutch minting card for genesis breed?
+   if this included, we need lock reward?
+
+but i think if this takes time, we can allow no lock in this case also.
+
+
+
+please check this staking function again(below)
+*1st stake, 300bcc reward also not mentioned above ~
+Answer: We implement this but forget to mention in previous document.
+
+ staking (check this again)
+Requirements 
+
+ 8,000 common card  +20 a day( 400 ea will be random card nft for reward)
+
+ 2,000 genesis card   +100 a day ( two common card + some bcb token need to breed)
+ *after get genesis card, two card burn.
+Answer: 
+combination of two cards will make a new card called "Genesis Card".
+that's why, breeding card will burn
+
+ 500 booster card   +150 a day (only can get from random box with some bcb token)
+ *stake in genesis pool , this only can get from random box 
+ANSWER: 
+yes, booster card will get from random box and locked for 150 days as per requirements.
+ 
+every utc 00:00 reward(stake can show real time, not show 24h later)  
+after unstake, if 24h later reward again is not good. every day 24h reward plz !!!!
+1st stake give bonus 300 bcb(all card even free and dutch nft card) 
+
+nft card holder get 3% tax fee reward from token tax(buy and sell in dex )
+  *in stake page, also can see this (only show dividen klay balance, not user all klay balance)
+
+lock up function need work and show some text alarm warning for free min and dutch card staker(if they unstake)
+my stake page, also show berry cash balance and klay divide reward balance

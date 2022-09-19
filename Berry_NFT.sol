@@ -621,7 +621,7 @@ contract SignVerify {
 
 
 
-contract AA is Ownable,SignVerify,ERC721Enumerable{
+contract BERRY_CLUB_NFT is Ownable,SignVerify,ERC721Enumerable{
 
     IERC20 public Token;
     BCASH20 public BCASH;
@@ -1222,6 +1222,14 @@ function getPrice(uint256 _count) public view returns (uint256)
 
     }
 
+    // function setOdds(uint256 _cash, uint256 _odd1, uint256 _common, uint256 _odd2
+    // , uint256 _uncommon, uint256 _odd3, uint256 _rare, uint256 _odd4
+    // , uint256 _epic, uint256 _odd5, uint256 _legendary, uint256 _odd6
+    // , uint256 _mythic, uint256 _odd7) 
+    // public 
+    // {
+
+    // }
 
     //  Collections that are set according to given requirements
     function setCollectionData() internal {
